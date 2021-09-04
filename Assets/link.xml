@@ -1,0 +1,5 @@
+<linker>
+    <assembly fullname="mscorlib">
+        <namespace fullname="System.Security.Cryptography" preseve="all"/>
+    </assembly>
+</linker>
