@@ -133,7 +133,7 @@ public class ShopManager : MonoBehaviour
             Debug.Log("더 이상 구입 할 수 없습니다.");
         }
 
-        //AttackPricePreview();
+        AttackPricePreview();
     }
 
     public void HpMaxPricePreview()
@@ -154,7 +154,7 @@ public class ShopManager : MonoBehaviour
         }
     }
 
-    // 공격력 구입 버튼
+    // 체력 구입 버튼
     public void HpMaxPurchase()
     {
         if (isHpMaxChange && int.Parse(hpMaxLevel.text) <= MAXVALUE)
