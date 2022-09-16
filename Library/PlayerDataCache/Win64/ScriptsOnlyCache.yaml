@@ -59,6 +59,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -2201,4 +2202,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Main.unity
   - Assets/Scenes/Stage.unity
   - Assets/Scenes/Shop.unity
-  playerPath: "C:/Users/user/Desktop/unity_project/FPS_Project/\uC2E4\uD589\uD30C\uC77C/ProjectFPS.exe"
+  playerPath: C:/Users/user/Desktop/unity_project/FPS_Project/EXE/ProjectFPS.exe
